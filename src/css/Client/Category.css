@@ -1,0 +1,60 @@
+.Category {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 10vh;
+  height: 90vh;
+  transition: height .3s ease-in;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.Category .logo {
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(13, 17, 54);
+  letter-spacing: 2px;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+.Category ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  position: absolute;
+  height: 92vh;
+  top: 8vh;
+  transition: transform .3s ease-in;
+  width: 100%;
+  padding: 0 20px 20px 20px;
+}
+
+.Category li {
+  cursor: pointer;
+}
+
+.Category ul li a {
+  color: rgb(13, 17, 54);
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: color .3s;
+}
+
+.Category li:hover a {
+  color: rgb(0, 158, 127);
+
+}
+
+.category-active {
+  height: 540px!important;
+}
+
+.active {
+  color: rgb(0, 158, 127)!important;
+}

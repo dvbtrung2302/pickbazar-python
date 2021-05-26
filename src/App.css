@@ -1,0 +1,321 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+p {
+  color: rgb(119, 121, 140);
+}
+ h1,h2,h3 {
+  color: rgb(13, 17, 54);
+ }
+ .App {
+   /* overflow: auto; */
+   min-height: 100vh;
+ }
+
+ .btn:focus {
+   box-shadow: none!important;
+ }
+
+ .disable-btn {
+  color: rgb(144, 144, 144)!important;
+  background-color: rgb(241, 241, 241)!important;
+  border-color: rgb(241, 241, 241)!important;
+}
+.disable-btn:active {
+  color: rgb(144, 144, 144)!important;
+  background-color: rgb(241, 241, 241)!important;
+}
+
+.disable-btn:hover {
+  color: rgb(144, 144, 144);
+}
+
+ ::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+ .App {
+   background-color: rgb(247, 247, 247);
+ }
+
+ .bt-header {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(13, 17, 54);
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.user-container {
+  background-color: rgb(247, 247, 247);
+  padding: 150px 25px 100px 25px;
+  display: flex;
+}
+
+.user-wrapper {
+  background-color: #fff;
+  width: 870px;
+  margin: 0 auto;
+  padding: 50px 30px;
+  box-shadow: 0 6px 9px rgba(50, 50, 93, 0.06), 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.user-container {
+  background-color: rgb(247, 247, 247);
+  padding: 150px 25px 100px 25px;
+}
+
+.admin-page {
+  background-color: rgb(247, 247, 247);
+  /* background-color: palegoldenrod; */
+  width: calc(100% - 270px);
+  float: right;
+  padding: 155px 40px 0 40px;
+}
+
+.admin-col {
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.03) 0px 21px 36px;
+  padding-bottom: 20px;
+  height: 100%;
+}
+
+.load-more {
+  border: none;
+  outline: none;
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 3px;
+  font-size: 15px;
+  color: rgb(0, 158, 127);
+  font-weight: 700;
+}
+
+.load-more:focus {
+  outline: none;
+}
+
+.admin-table {
+  display: table;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  margin: 0;
+  width: 100%;
+  border-top: none;
+}
+
+.admin-table thead {
+  border: none;
+}
+
+.admin-table tbody {
+  border: none;
+}
+
+.admin-table tr {
+  border: none;
+}
+
+.admin-table th {
+  color: rgb(22, 31, 106);
+  font-size: 15px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 4px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.admin-table td {
+  color: rgb(22, 31, 106);
+  font-size: 14px;
+  border: none;
+  border-top: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+@media (min-width: 1200px) {
+  .container, .container-lg, 
+  .container-md, .container-sm, .container-xl {
+      max-width: 1800px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Banner {
+    background-position: left!important;
+  }
+  .Banner .SearchBar {
+    display: none;
+  }
+  .Orders {
+    padding-bottom: 20px!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+  .Orders .order-container {
+    width: 100%;
+  }
+  .Orders .my-order {
+    width: 100%;
+    padding-left: 20px!important;
+    padding-right: 20px!important;
+  }
+  .Order {
+    width: 100%!important;
+    margin: 0!important;
+  }
+  .Orders .details {
+    flex-direction: column!important;
+  }
+  .Orders .address {
+    border-right: none!important;
+    border-bottom: 1px solid #eee!important;
+  }
+  .Orders .info {
+    width: 100%!important;
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+  .Orders .des .text {
+    font-size: 9px!important;
+  }
+}
+
+
+@media (max-width: 992px) {
+  .Category {
+    height: 10vh!important;
+  }
+  .Burger {
+    display: flex!important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .ProductView .back-btn {
+    top: -40px!important;
+  }
+  .Checkout .checkout-form {
+    width: 100%!important;
+  }
+
+  .user-wrapper {
+    width: 100%!important;
+  }
+  .Checkout .checkout-form .payment .form-check {
+    flex-direction: column;
+  }
+  .Checkout form .payment .form-check-label {
+    margin-bottom: 1rem!important;
+  }
+  .NavBar .wrapper {
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+  }
+  .NavBar .navs {
+    display: none;
+    transform: translateX(-110%);
+    transition: transform .5s ease-in;
+    box-shadow: 0px 8px 6px rgba(0, 0, 0, .2);
+  }
+  .admin-page {
+    width: 100%!important;
+    padding: 155px 0 0 0!important;
+  }
+  .Client {
+    height: auto!important;
+  }
+  .Client .main {
+    flex-direction: column;
+    padding: 70px 35px 0 35px!important;
+  }
+  .Client .client-progress {
+    width: 100%;
+    margin-top: 25px;
+  }
+  .Admin .legend .LegendItems {
+    width: 50%;  
+  }
+  .ProductFunc {
+    max-width: 100%!important;
+  }
+}
+
+
+@media (max-width: 576px){
+  .CartItems {
+    width: 100%!important;
+  }
+  .SignIn .container {
+    width: 100%!important;
+    height: 100%!important;
+  }
+  .Checkout {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .OrderReceived .user-wrapper .received .info {
+    flex-direction: column;
+  }
+  .OrderReceived .user-wrapper .detail .detail-info .info-header {
+    flex-basis: 110px;
+  }
+  .OrderReceived .user-wrapper .detail .detail-info p {
+    padding-left: 30px;
+  }
+  .UserProfile .AuthForm {
+    flex-direction: column;
+  }
+  .UserProfile .AuthForm .form-group {
+    margin: 0 0 20px 0!important;
+  }
+  .UserProfile .AuthForm .btn {
+    width: 100%!important;
+  }
+  .UserInfo {
+    width: 100%!important;
+  }
+  .User .nav-links {
+    width: 100%!important;
+  }
+  .AdminLogin .AuthForm {
+    height: 100%!important;
+  }
+  .NavBar .wrapper {
+    padding-left: 15px!important;
+    padding-right: 15px!important;
+  }
+  .NavBar .logo img {
+    width: 110px!important;
+  } 
+  .NavBar .navs {
+    width: 100%;
+  }
+  .NavBar .add-products-btn {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .ProductFunc .update-btn > div {
+    margin-bottom: 15px;
+    max-width: 100% !important;
+  }
+}

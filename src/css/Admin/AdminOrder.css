@@ -1,0 +1,83 @@
+.AdminOrders .status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AdminOrders .status svg {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.AdminOrders .status .fa-times {
+  color: red;
+}
+
+.AdminOrders .status .fa-shipping-fast {
+  color: tan;
+}
+
+.AdminOrders .status .fa-check {
+  color: green;
+}
+
+.AdminOrders .list {
+  display: none;
+}
+
+.AdminOrders .status:hover .list {
+  display: flex;
+}
+
+.AdminOrders .status:hover .main {
+  display: none;
+}
+.items-modals {
+  overflow: scroll;
+}
+
+.items-modals .table thead {
+  background-color: rgb(247, 247, 247);
+}
+
+.items-modals .table thead th {
+  padding: 5px;
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(13, 17, 54);
+}
+
+.items-modals .table th .img-wrapper {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+
+.items-modals .table th .img-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.items-modals .table td .title {
+  font-weight: 700;
+  color: rgb(13, 17, 54);
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.items-modals .table td {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(13, 17, 54);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.items-modals .table td .price {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgb(0, 158, 127);
+}

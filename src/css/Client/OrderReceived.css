@@ -1,0 +1,43 @@
+.OrderReceived .user-wrapper .BackToHomeBtn {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.OrderReceived .user-wrapper .received .info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.OrderReceived .info-header {
+  font-weight: 700;
+  color: rgb(66, 69, 97);
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+.OrderReceived .user-wrapper .detail .detail-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.OrderReceived .user-wrapper .detail .detail-info .info-header {
+  flex-basis: 280px;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.OrderReceived .user-wrapper .detail .detail-info p {
+  padding-left: 100px;
+  margin: 0;
+}
+
+.OrderReceived .user-wrapper .detail .detail-info .info-header:after {
+  content: ":";
+  position: absolute;
+  line-height: 1;
+  right: 0;
+  top: 0;
+}
