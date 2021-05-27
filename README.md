@@ -1,4 +1,4 @@
-## BOOK STORE ONLINE WITH MERN STACK
+## BOOK STORE ONLINE WITH REACTJS AND DJANGO
 
 In the project directory, you can run:
 
